@@ -93,7 +93,7 @@ $per_rate=number_format($per_rate, 1);
       @if($product->session==2)
       <p style = "text-transform:capitalize;">Season : Day</p>
       @endif
-      <p style = "text-transform:capitalize;">Price : {{ $product->price }} Tk</p>
+      <p style = "text-transform:capitalize;">Price : {{ $product->price }} $</p>
       @if($product->available =="Stock")
 
       <p style = "text-transform:capitalize;">Available : Stock </p>

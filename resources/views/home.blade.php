@@ -159,7 +159,7 @@
                                                             <h4>{{ $item->name }}</h4>
                                                             <p>{{  $item->description }}</p>
                                                             <div class="price">
-                                                                <h6>৳{{  $item->price }}</h6>
+                                                                <h6>${{  $item->price }}</h6>
                                                             </div>
                                                             <span class="product_rating">
                                                         @for($i=1;$i<=$whole;$i++)
@@ -232,7 +232,7 @@
                                                             <h4>{{ $item->name }}</h4>
                                                             <p>{{  $item->description }}</p>
                                                             <div class="price">
-                                                                <h6>৳{{  $item->price }}</h6>
+                                                                <h6>${{  $item->price }}</h6>
                                                             </div>
                                                             <span class="product_rating">
                                                         @for($i=1;$i<=$whole;$i++)
@@ -312,7 +312,7 @@
                                                             <h4>{{ $item->name }}</h4>
                                                             <p>{{  $item->description }}</p>
                                                             <div class="price">
-                                                                <h6>৳{{  $item->price }}</h6>
+                                                                <h6>${{  $item->price }}</h6>
                                                             </div>
                                                             <span class="product_rating">
                                                         @for($i=1;$i<=$whole;$i++)
@@ -383,7 +383,7 @@
                                                             <h4>{{ $item->name }}</h4>
                                                             <p>{{  $item->description }}</p>
                                                             <div class="price">
-                                                                <h6>৳{{  $item->price }}</h6>
+                                                                <h6>${{  $item->price }}</h6>
                                                             </div>
                                                             <span class="product_rating">
                                                         @for($i=1;$i<=$whole;$i++)
@@ -462,7 +462,7 @@
                                                             <h4>{{ $item->name }}</h4>
                                                             <p>{{  $item->description }}</p>
                                                             <div class="price">
-                                                                <h6>৳{{  $item->price }}</h6>
+                                                                <h6>${{  $item->price }}</h6>
                                                             </div>
                                                             <span class="product_rating">
                                                         @for($i=1;$i<=$whole;$i++)
@@ -536,7 +536,7 @@
                                                             <h4>{{ $item->name }}</h4>
                                                             <p>{{  $item->description }}</p>
                                                             <div class="price">
-                                                                <h6>৳{{  $item->price }}</h6>
+                                                                <h6>${{  $item->price }}</h6>
                                                             </div>
                                                             <span class="product_rating">
                                                         @for($i=1;$i<=$whole;$i++)
@@ -602,7 +602,7 @@
                     ?>
                         <div class='card' style="background-image: url({{asset('assets/images/'.$img)}})"> 
 
-                            <div class="price"><h6>৳{{ $product->price }}</h6>
+                            <div class="price"><h6>${{ $product->price }}</h6>
                             @if($product->available!="Stock")
                             <h4 style="">Out Of Stock</h4> 
 
@@ -757,8 +757,8 @@
                                 <div class="message">
                                     <i class="fa fa-envelope"></i>
                                     <h4>Emails</h4>
-                                    <span><a href="mailto:sajeebchakraborty.cse2000@gmail.com">sajeebchakraborty.cse2000@gmail.com</a><br>
-									<a href="mailto:sajeebcb.cseru@gmail.com">sajeebcb.cseru@gmail.com</a><br>
+                                    <span><a href="midwaydine@gmail.com">midwaydine@gmail.com</a><br>
+									<a href="mailto:vanhuy@gmail.com">vanhuy@gmail.com</a><br>
 									</span>
                                 </div>
                             </div>

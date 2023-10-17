@@ -99,7 +99,7 @@
 
 
                             
-                     <td>{{ $admin->salary }} Tk</td>
+                     <td>{{ $admin->salary }} $</td>
 
 
                             <td>
