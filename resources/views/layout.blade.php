@@ -49,13 +49,12 @@
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="{{url('home')}}" class="logo">
-                            <img width="100px" src="{{ asset('assets/images/logo.png')}}">
+                            <img width="60px" src="{{ asset('assets/images/logo.png')}}">
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="/">Home</a></li>
-                            <li class="scroll-to-section"><a href="/#about">About</a></li>
+                            <li class="scroll-to-section"><a href="#about">Home</a></li>
                            	
                             <li class="scroll-to-section"><a href="/#menu">Menu</a></li>
                         
@@ -154,10 +153,10 @@
                 <div class="col-lg-4 col-xs-12">
                     <div class="right-text-content">
                             <ul class="social-icons">
-                                <li><a href="https://web.facebook.com/rahathosenmanik/"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://twitter.com/rahathosenmanik"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/rahathossenmanik/"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="https://www.instagram.com/rahathossenmanik/?hl=en"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href=""><i class="fa fa-instagram"></i></a></li>
                             </ul>
                     </div>
                 </div>
@@ -169,7 +168,7 @@
                 <div class="col-lg-4 col-xs-12">
                     <div class="left-text-content">
                         <p>© Copyright Midway Dine
-							<br>Since 2022</p>
+							<br>Since 2023</p>
                     </div>
                 </div>
             </div>

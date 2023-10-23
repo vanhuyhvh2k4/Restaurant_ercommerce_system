@@ -306,13 +306,13 @@ class HomeController extends Controller
 
         */
 
-        $pdf = PDF::loadView('mails.Reserve', $data);
+        // $pdf = PDF::loadView('mails.Reserve', $data);
   
-        \Mail::send('mails.Reserve', $data, function($message)use($data, $pdf) {
-            $message->to(Auth::user()->email,Auth::user()->email)
-                    ->subject($data["title"])
-                    ->attachData($pdf->output(), "Reservation Copy.pdf");
-        });
+        // \Mail::send('mails.Reserve', $data, function($message)use($data, $pdf) {
+        //     $message->to(Auth::user()->email,Auth::user()->email)
+        //             ->subject($data["title"])
+        //             ->attachData($pdf->output(), "Reservation Copy.pdf");
+        // });
        
 
 

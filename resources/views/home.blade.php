@@ -3,7 +3,7 @@
 @section('page-content')
 
     <!-- ***** Main Banner Area Start ***** -->
-    <div id="top">
+    {{-- <div id="top">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-4">
@@ -37,7 +37,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- ***** Main Banner Area End ***** -->
 
     <!-- ***** About Area Starts ***** -->
@@ -66,11 +66,11 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-xs-12">
-                    <div class="right-content">
-                        <div class="thumb">
-                            <a rel="nofollow" href="{{  $a_us->youtube_link    }}" target="_blank"> <i class="fa fa-play"></i></a>
-                            <img src="{{ asset('assets/images/'.$a_us->vd_image)}}" alt="">
-
+                    <div class="right-content h-100">
+                        <div class="thumb h-100">
+                            {{-- <a rel="nofollow" href="{{  $a_us->youtube_link    }}" target="_blank"> <i class="fa fa-play"></i></a> --}}
+                            {{-- <img src="{{ asset('assets/images/'.$a_us->vd_image)}}" alt=""> --}}
+                            <img style="object-fit: cover; flex-shrink: 0;" height="100%" src="{{ asset('assets/images/food.jpg')}}" alt="">
                             @endforeach
                         </div>
                     </div>
