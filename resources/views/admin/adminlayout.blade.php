@@ -146,7 +146,7 @@
                 <li class="nav-item"> <a class="nav-link" href="/orders/process">Processing Order</a></li>
                 <li class="nav-item"> <a class="nav-link" href="/orders-complete">Complete Orders</a></li>
                 <li class="nav-item"> <a class="nav-link" href="/orders/cancel">Cancelled Order</a></li>
-                <li class="nav-item"> <a class="nav-link" href="/order/location">Update Location</a></li>
+                {{-- <li class="nav-item"> <a class="nav-link" href="/order/location">Update Location</a></li> --}}
 
               </ul>
             </div>
@@ -179,29 +179,6 @@
             </a>
           </li>
           @if(Auth::user()->usertype == 1)
-          <li class="nav-item menu-items">
-            <a class="nav-link" href="/admin/customize">
-              <span class="menu-icon">
-                <i class="mdi mdi-settings"></i>
-              </span>
-              <span class="menu-title">Customize Template</span>
-            </a>
-          </li>
-          <li class="nav-item menu-items">
-            <a class="nav-link" data-toggle="collapse" href="#ui-basic2" aria-expanded="false" aria-controls="ui-basic">
-              <span class="menu-icon">
-                <i class="mdi mdi-file-document-box"></i>
-              </span>
-              <span class="menu-title">Banners</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="ui-basic2">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="/admin/add/banner">Add Banners</a></li>
-                <li class="nav-item"> <a class="nav-link" href="/admin/banner/all">All Banners</a></li>
-              </ul>
-            </div>
-          </li>
 
           <li class="nav-item menu-items">
             <a class="nav-link" href="/admin/show">
@@ -238,7 +215,7 @@
           @endif
           
 
-          @if(Auth::user()->usertype != 2)
+          {{-- @if(Auth::user()->usertype != 2)
 
           <li class="nav-item menu-items">
             <a class="nav-link" href="/admin/coupon">
@@ -258,7 +235,7 @@
             </a>
           </li>
 
-          @endif
+          @endif --}}
 
      
          
